@@ -1,0 +1,13 @@
+CREATE TABLE factionsdata (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    faction_name VARCHAR(255),
+    leader VARCHAR(255),
+    members TEXT
+);
+
+INSERT INTO factionsdata (faction_name, leader, members)
+VALUES
+    ('Marauder Corps', 'Sarah Briggs', 'James MacAllan, Jack Cooper, Tai Lastimosa'),
+    ('Apex Predators', 'Kuben Blisk', 'Slone, Richter, Viper, Kane'),
+    ('The 6-4', 'Gates', 'Davis, Bear, Droz'),
+    ('Ares Division', 'General Marder', 'Jefferson Boyle, Alexander Darren, Ehrenberg, Colby Marvin');

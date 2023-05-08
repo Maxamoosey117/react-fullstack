@@ -1,0 +1,53 @@
+.section {
+  background-color: rgba(255, 50, 50, 0.9);
+  margin: 15px 0;
+  padding: 10px;
+  color: white;
+}
+
+#carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.filter-button {
+  margin-left: 7px;
+}
+
+footer {
+  position: relative;
+  background-color: gray;
+  min-height: 200px;
+  text-align: center;
+}
+
+.sort-button {
+    margin-left: 7px;
+}
+
+
+#backgroundVideo {
+  position: fixed;
+  z-index: -99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#videoBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#videoBtn:hover {
+  background: #ddd;
+  color: black;
+}
